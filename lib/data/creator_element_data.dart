@@ -1,8 +1,8 @@
+import 'package:codeit_creator/presentation/move/elements/move_canvas_element.dart';
 import 'package:codeit_creator/utilities/converters.dart';
 import 'package:codeit_creator/utilities/creator_constants.dart';
 import 'package:codeit_creator/data/creator_ai_data.dart';
 import 'package:codeit_creator/data/creator_data.dart';
-import 'package:codeit_creator/presentation/move/elements/move_element.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 
@@ -45,15 +45,15 @@ class OptionsMenuData {
 
   Map toMap() {
     return {
-      'position': Converters.offsetToString(this.position),
-      'hasColorPicker': this.hasColorPicker,
-      'hasPortPicker': this.hasPortPicker,
-      'hasDirectionPicker': this.hasDirectionPicker,
-      'hasTextInput': this.hasTextInput,
-      'incrementValue': this.incrementValue,
-      'hasButtonPicker': this.hasButtonPicker,
-      'hasPinPicker': this.hasPinPicker,
-      'hasProgrammerSelector': this.hasProgrammerSelector,
+      'position': Converters.offsetToString(position),
+      'hasColorPicker': hasColorPicker,
+      'hasPortPicker': hasPortPicker,
+      'hasDirectionPicker': hasDirectionPicker,
+      'hasTextInput': hasTextInput,
+      'incrementValue': incrementValue,
+      'hasButtonPicker': hasButtonPicker,
+      'hasPinPicker': hasPinPicker,
+      'hasProgrammerSelector': hasProgrammerSelector,
     };
   }
 }

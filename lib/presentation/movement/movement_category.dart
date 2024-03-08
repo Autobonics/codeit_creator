@@ -6,6 +6,8 @@ import 'package:codeit_creator/presentation/creator_category_element.dart';
 import 'package:codeit_creator/presentation/movement/elements/orientation_element.dart';
 import 'package:flutter/cupertino.dart';
 
+export './elements/oreintation_canvas_element.dart';
+
 class MovementCreatorCategory extends StatelessWidget {
   final CreatorController controller;
 

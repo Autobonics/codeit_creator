@@ -6,6 +6,8 @@ import 'package:codeit_creator/data/creator_data.dart';
 import 'package:codeit_creator/presentation/creator_category_element.dart';
 import 'package:flutter/cupertino.dart';
 
+export './elements/gpt_canvas_element.dart';
+
 class AiCreatorCategory extends StatelessWidget {
   final CreatorController controller;
 

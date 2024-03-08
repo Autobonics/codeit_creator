@@ -7,6 +7,9 @@ import 'package:codeit_creator/presentation/input/elements/distance_element.dart
 import 'package:codeit_creator/presentation/input/elements/temperature_element.dart';
 import 'package:flutter/cupertino.dart';
 
+export './elements/distance_canvas_element.dart';
+export './elements/temperature_canvas_element.dart';
+
 class InputCreatorCategory extends StatelessWidget {
   final CreatorController controller;
 

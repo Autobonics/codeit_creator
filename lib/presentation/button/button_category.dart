@@ -5,8 +5,10 @@ import 'package:codeit_creator/presentation/button/elements/is_pressed_element.d
 import 'package:codeit_creator/presentation/button/elements/is_touched_element.dart';
 import 'package:codeit_creator/presentation/creator_category.dart';
 import 'package:codeit_creator/presentation/creator_category_element.dart';
-
 import 'package:flutter/cupertino.dart';
+
+export './elements/is_pressed_canvas_element.dart';
+export './elements/is_touched_canvas_element.dart';
 
 class ButtonCreatorCategory extends StatelessWidget {
   final CreatorController controller;

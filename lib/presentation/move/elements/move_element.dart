@@ -1,10 +1,9 @@
+import 'package:codeit_creator/presentation/move/elements/move_canvas_element.dart';
 import 'package:codeit_creator/utilities/creator_constants.dart';
 import 'package:codeit_creator/data/creator_ai_data.dart';
 import 'package:codeit_creator/data/creator_controller.dart';
 import 'package:codeit_creator/data/creator_element_data.dart';
 import 'package:flutter/material.dart';
-
-enum MoveDirection { Clockwise, AntiClockwise }
 
 // enum MoveIcon {
 //   ArrowForward,

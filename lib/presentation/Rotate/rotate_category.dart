@@ -6,6 +6,8 @@ import 'package:codeit_creator/presentation/creator_category.dart';
 import 'package:codeit_creator/presentation/creator_category_element.dart';
 import 'package:flutter/cupertino.dart';
 
+export './elements/setAngle_canvas_element.dart';
+
 class RotateCreatorCategory extends StatelessWidget {
   final CreatorController controller;
 

@@ -5,6 +5,8 @@ import 'package:codeit_creator/data/creator_element_data.dart';
 import 'package:codeit_creator/presentation/move/elements/move_element.dart';
 import 'package:flutter/material.dart';
 
+enum MoveDirection { Clockwise, AntiClockwise }
+
 class MoveCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
   final String elementDataKey;

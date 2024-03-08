@@ -7,6 +7,9 @@ import 'package:codeit_creator/presentation/creator_category.dart';
 import 'package:codeit_creator/presentation/creator_category_element.dart';
 import 'package:flutter/cupertino.dart';
 
+export './elements/scroll_canvas_element.dart';
+export './elements/setPixel_canvas_element.dart';
+
 class DisplayCreatorCategory extends StatelessWidget {
   final CreatorController controller;
 

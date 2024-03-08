@@ -1,6 +1,6 @@
 import 'package:codeit_creator/data/creator_data.dart';
 import 'package:codeit_creator/data/creator_element_data.dart';
-import 'package:codeit_creator/presentation/move/elements/move_element.dart';
+import 'package:codeit_creator/presentation/move/elements/move_canvas_element.dart';
 import 'package:flutter/material.dart';
 
 class Converters {

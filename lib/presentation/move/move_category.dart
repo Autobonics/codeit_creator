@@ -7,6 +7,9 @@ import 'package:codeit_creator/presentation/move/elements/move_element.dart';
 import 'package:codeit_creator/presentation/move/elements/stop_element.dart';
 import 'package:flutter/cupertino.dart';
 
+export './elements/move_canvas_element.dart';
+export './elements/stop_canvas_element.dart';
+
 class MoveCreatorCategory extends StatelessWidget {
   final CreatorController controller;
 

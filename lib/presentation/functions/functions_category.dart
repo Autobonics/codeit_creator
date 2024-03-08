@@ -7,6 +7,9 @@ import 'package:codeit_creator/presentation/functions/elements/output_function_e
 import 'package:codeit_creator/presentation/functions/elements/output_function_with_parameter_element.dart';
 import 'package:flutter/cupertino.dart';
 
+export './elements/output_function_canvas_element.dart';
+export './elements/output_function_with_parameter_canvas_element.dart';
+
 class FunctionsCreatorCategory extends StatelessWidget {
   final CreatorController controller;
 

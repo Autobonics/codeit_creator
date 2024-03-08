@@ -6,12 +6,17 @@ import 'package:codeit_creator/presentation/creator_category_element.dart';
 import 'package:codeit_creator/presentation/text/elements/text_elements.dart';
 import 'package:flutter/material.dart';
 
+export './elements/body_canvas_element.dart';
+export './elements/bonic_canvas_element.dart';
+export './elements/heading_canvas_element.dart';
+export './elements/subheading_canvas_element.dart';
+
 class TextCreatorCategory extends StatelessWidget {
   final CreatorController controller;
   const TextCreatorCategory({
-    Key? key,
+    super.key,
     required this.controller,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -19,45 +24,45 @@ class TextCreatorCategory extends StatelessWidget {
       controller: controller,
       categoryName: CreatorConsts.getLocale(context)!.text,
       elements: [
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
         CreatorCategoryElement(
           category: CreatorCategoryType.Text,
-          child: BonicTextElement(),
           label: "Bonic",
           color: CreatorConsts.creatorTextColor,
           controller: controller,
           totalInputs: 0,
           totalOutputs: 0,
+          child: const BonicTextElement(),
         ),
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
         CreatorCategoryElement(
           category: CreatorCategoryType.Text,
-          child: HeadingTextElement(),
           label: "Heading",
           color: CreatorConsts.creatorTextColor,
           controller: controller,
           totalInputs: 0,
           totalOutputs: 0,
+          child: const HeadingTextElement(),
         ),
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
         CreatorCategoryElement(
           category: CreatorCategoryType.Text,
-          child: SubHeadingElement(),
           label: "Sub Heading",
           color: CreatorConsts.creatorTextColor,
           controller: controller,
           totalInputs: 0,
           totalOutputs: 0,
+          child: const SubHeadingElement(),
         ),
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
         CreatorCategoryElement(
           category: CreatorCategoryType.Text,
-          child: BodyTextElement(),
           label: "Body",
           color: CreatorConsts.creatorTextColor,
           controller: controller,
           totalInputs: 0,
           totalOutputs: 0,
+          child: BodyTextElement(),
         ),
       ],
       category: CreatorCategoryType.Text,
