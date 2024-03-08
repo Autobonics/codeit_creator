@@ -5,8 +5,6 @@ import 'package:codeit_creator/data/creator_data.dart';
 import 'package:codeit_creator/data/creator_element_data.dart';
 import 'package:flutter/material.dart';
 
-enum DeviceState { Play, Stop, Busy, NotConnected }
-
 ///This file will be modified base on updates given to backend logic of codeit.
 
 abstract class CreatorViewModelBase {
@@ -28,8 +26,6 @@ abstract class CreatorViewModelBase {
   }) chatComplete;
 
   bool get hasData;
-
-  DeviceState get deviceState;
 
   Stream<String>? get messageStream;
 

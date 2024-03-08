@@ -10,3 +10,5 @@ export 'package:codeit_creator/presentation/movement/movement_category.dart';
 export 'package:codeit_creator/presentation/Music/music_category.dart';
 export 'package:codeit_creator/presentation/Rotate/rotate_category.dart';
 export 'package:codeit_creator/presentation/text/text_creator_category.dart';
+
+export 'package:codeit_creator/data/creator_controller.dart';
