@@ -9,7 +9,7 @@ class IsTouchedElement extends StatefulWidget {
   final CreatorElementData? data;
   final bool isPressedDown;
   final double defaultSize;
-  final CreatorController? controller;
+  final CreatorControllerBase? controller;
 
   const IsTouchedElement({
     Key? key,

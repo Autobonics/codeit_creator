@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 class TemperatureCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
   final String elementDataKey;
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   const TemperatureCanvasElement({
     Key? key,
     required this.controller,

@@ -11,7 +11,7 @@ export './elements/scroll_canvas_element.dart';
 export './elements/setPixel_canvas_element.dart';
 
 class DisplayCreatorCategory extends StatelessWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
 
   const DisplayCreatorCategory({
     super.key,

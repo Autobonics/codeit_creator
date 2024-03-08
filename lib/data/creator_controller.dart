@@ -9,7 +9,7 @@ enum DeviceState { Play, Stop, Busy, NotConnected }
 
 ///This file will be modified base on updates given to backend logic of codeit.
 
-abstract class CreatorViewModel {
+abstract class CreatorViewModelBase {
   late List<dynamic> Function(
     String, {
     Map<String, String>? continousMessages,
@@ -44,10 +44,10 @@ abstract class CreatorViewModel {
   Future<void> stopTextToSpeech();
 }
 
-abstract class CreatorController {
-  late CreatorViewModel viewModel;
+abstract class CreatorControllerBase {
+  late CreatorViewModelBase viewModel;
 
-  CreatorController();
+  CreatorControllerBase();
 
   final ValueNotifier<bool> isEditMode = ValueNotifier<bool>(true);
 

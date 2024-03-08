@@ -11,7 +11,7 @@ export './elements/distance_canvas_element.dart';
 export './elements/temperature_canvas_element.dart';
 
 class InputCreatorCategory extends StatelessWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
 
   const InputCreatorCategory({
     Key? key,

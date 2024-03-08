@@ -9,7 +9,7 @@ class SetAngleCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
   final String elementDataKey;
 
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   const SetAngleCanvasElement({
     Key? key,
     required this.controller,

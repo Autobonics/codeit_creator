@@ -9,7 +9,7 @@ import 'package:flutter/cupertino.dart';
 export './elements/setAngle_canvas_element.dart';
 
 class RotateCreatorCategory extends StatelessWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
 
   const RotateCreatorCategory({
     Key? key,

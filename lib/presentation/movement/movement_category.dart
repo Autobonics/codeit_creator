@@ -9,7 +9,7 @@ import 'package:flutter/cupertino.dart';
 export './elements/oreintation_canvas_element.dart';
 
 class MovementCreatorCategory extends StatelessWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
 
   const MovementCreatorCategory({
     Key? key,

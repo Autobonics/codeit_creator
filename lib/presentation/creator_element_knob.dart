@@ -27,7 +27,7 @@ class CurveInputKnob extends StatelessWidget {
 }
 
 class CurveOutputKnob extends StatefulWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   final CreatorElementData data;
   final String elementKey;
   final int knobIndex;

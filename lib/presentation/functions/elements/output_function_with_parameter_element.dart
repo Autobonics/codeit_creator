@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 class OutputFunctionWithParameterElement extends StatefulWidget {
   final CreatorElementData? data;
   final double defaultSize;
-  final CreatorController? controller;
+  final CreatorControllerBase? controller;
 
   const OutputFunctionWithParameterElement({
     Key? key,

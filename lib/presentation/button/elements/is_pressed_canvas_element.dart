@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 class IsPressedCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   final String elementDataKey;
   const IsPressedCanvasElement({
     Key? key,

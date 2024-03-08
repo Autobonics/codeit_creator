@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 class DistanceCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
   final String elementDataKey;
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   const DistanceCanvasElement({
     Key? key,
     required this.controller,

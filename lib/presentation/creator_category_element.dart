@@ -12,7 +12,7 @@ class CreatorCategoryElement extends StatefulWidget {
   final int totalOutputs;
 
   final Color color;
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   const CreatorCategoryElement({
     Key? key,
     required this.category,

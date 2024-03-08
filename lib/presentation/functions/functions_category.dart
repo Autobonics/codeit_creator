@@ -11,7 +11,7 @@ export './elements/output_function_canvas_element.dart';
 export './elements/output_function_with_parameter_canvas_element.dart';
 
 class FunctionsCreatorCategory extends StatelessWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
 
   const FunctionsCreatorCategory({
     Key? key,

@@ -9,7 +9,7 @@ class StopCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
   final String elementDataKey;
 
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   const StopCanvasElement({
     Key? key,
     required this.controller,

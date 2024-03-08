@@ -9,7 +9,7 @@ import 'package:flutter/cupertino.dart';
 export './elements/gpt_canvas_element.dart';
 
 class AiCreatorCategory extends StatelessWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
 
   const AiCreatorCategory({
     super.key,

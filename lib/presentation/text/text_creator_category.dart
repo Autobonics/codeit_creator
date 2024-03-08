@@ -12,7 +12,7 @@ export './elements/heading_canvas_element.dart';
 export './elements/subheading_canvas_element.dart';
 
 class TextCreatorCategory extends StatelessWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   const TextCreatorCategory({
     super.key,
     required this.controller,

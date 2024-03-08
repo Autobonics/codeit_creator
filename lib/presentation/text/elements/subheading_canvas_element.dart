@@ -8,7 +8,7 @@ class SubheadingCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
   final String elementDataKey;
 
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   const SubheadingCanvasElement({
     Key? key,
     required this.controller,

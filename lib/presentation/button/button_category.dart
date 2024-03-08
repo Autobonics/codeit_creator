@@ -11,7 +11,7 @@ export './elements/is_pressed_canvas_element.dart';
 export './elements/is_touched_canvas_element.dart';
 
 class ButtonCreatorCategory extends StatelessWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
 
   const ButtonCreatorCategory({
     super.key,

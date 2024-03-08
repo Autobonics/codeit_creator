@@ -8,7 +8,7 @@ class HeadingCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
   final String elementDataKey;
 
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   const HeadingCanvasElement({
     super.key,
     required this.controller,

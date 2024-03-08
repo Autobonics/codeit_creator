@@ -11,7 +11,7 @@ export './elements/move_canvas_element.dart';
 export './elements/stop_canvas_element.dart';
 
 class MoveCreatorCategory extends StatelessWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
 
   const MoveCreatorCategory({
     Key? key,

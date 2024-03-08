@@ -8,7 +8,7 @@ class CreatorCanvasElement extends StatefulWidget {
   ///if optionsMenuData is null, options menu will not be shown.
   // final CreatorElementData data;
   final double defaultSize;
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   final Widget Function(CreatorElementData data, bool isPressedDown)
       childBuilder;
   final VoidCallback? onTapDown;

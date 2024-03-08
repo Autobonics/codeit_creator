@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 class PianoCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   final String elementDataKey;
 
   const PianoCanvasElement({

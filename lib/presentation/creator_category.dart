@@ -36,7 +36,7 @@ class CreatorCategory extends StatefulWidget {
   final String categoryName;
   final List<Widget> elements;
   final CreatorCategoryType category;
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   final Color color;
   const CreatorCategory({
     Key? key,

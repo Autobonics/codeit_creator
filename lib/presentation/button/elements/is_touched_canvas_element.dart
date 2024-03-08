@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 
 class IsTouchedCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   final String elementDataKey;
   const IsTouchedCanvasElement({
     Key? key,

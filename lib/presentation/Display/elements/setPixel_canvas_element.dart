@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 class SetPixelCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   final String elementDataKey;
   const SetPixelCanvasElement({
     Key? key,

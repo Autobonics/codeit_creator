@@ -9,7 +9,7 @@ import 'package:flutter/cupertino.dart';
 export './elements/piano_canvas_element.dart';
 
 class MusicCreatorCategory extends StatelessWidget {
-  final CreatorController controller;
+  final CreatorControllerBase controller;
 
   const MusicCreatorCategory({
     Key? key,

@@ -8,7 +8,7 @@ class BodyCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
   final String elementDataKey;
 
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   const BodyCanvasElement({
     Key? key,
     required this.controller,

@@ -8,7 +8,7 @@ class BonicCanvasElement extends StatefulWidget {
   // final CreatorElementData element;
   final String elementDataKey;
 
-  final CreatorController controller;
+  final CreatorControllerBase controller;
   const BonicCanvasElement({
     Key? key,
     required this.controller,
