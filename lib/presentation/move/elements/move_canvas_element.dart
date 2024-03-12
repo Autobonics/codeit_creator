@@ -29,14 +29,16 @@ class _MoveCanvasElementState extends State<MoveCanvasElement> {
     data = widget
         .controller.creatorData.currentCanvasElements[widget.elementDataKey]!;
     data.setCode(interruptRecieverCode: '''
-  port = ports[int(msg[1])-1]
   if(msg[0] =="!"):
+    port = ports[int(msg[1])-1]
     move.forward(port,500)
     return
   if(msg[0] =='"'):
+    port = ports[int(msg[1])-1]
     move.reverse(port,500)
     return
   if(msg[0] =="#"):
+    port = ports[int(msg[1])-1]
     move.stop(port)
     return
 ''');
