@@ -77,4 +77,9 @@ abstract class CreatorControllerBase {
   String generateCode();
 
   String? checkError();
+
+  static String getLabelName(
+      {required String label, required BuildContext context}) {
+    return label;
+  }
 }

@@ -20,7 +20,8 @@ class MovementCreatorCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     return CreatorCategory(
       controller: controller,
-      categoryName: CreatorConsts.getLocale(context)!.movement,
+      categoryName: CreatorControllerBase.getLabelName(
+          label: 'orientation', context: context),
       color: CreatorConsts.creatorMovementColor,
       elements: [
         SizedBox(height: 20),

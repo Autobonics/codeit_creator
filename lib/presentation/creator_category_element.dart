@@ -1,6 +1,7 @@
 import 'package:codeit_creator/data/creator_controller.dart';
 import 'package:codeit_creator/data/creator_data.dart';
 import 'package:codeit_creator/data/creator_element_data.dart';
+import 'package:codeit_creator/presentation/codeit_creator.dart';
 import 'package:flutter/material.dart';
 
 class CreatorCategoryElement extends StatefulWidget {
@@ -36,7 +37,7 @@ class _CreatorCategoryElementState extends State<CreatorCategoryElement> {
       child: Column(
         children: [
           Text(
-            CreatorElementData.getLabelName(
+            CreatorControllerBase.getLabelName(
                 label: widget.label, context: context),
             textAlign: TextAlign.center,
             style: TextStyle(

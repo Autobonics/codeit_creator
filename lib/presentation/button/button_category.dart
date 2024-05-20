@@ -22,7 +22,9 @@ class ButtonCreatorCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     return CreatorCategory(
       controller: controller,
-      categoryName: CreatorConsts.getLocale(context)!.button,
+      categoryName: CreatorControllerBase.getLabelName(
+              label: 'button', context: context) ??
+          'Button',
       color: CreatorConsts.creatorButtonColor,
       elements: [
         const SizedBox(height: 20),

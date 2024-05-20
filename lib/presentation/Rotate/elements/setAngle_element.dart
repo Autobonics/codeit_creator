@@ -138,9 +138,10 @@ class _SetAngleElementState extends State<SetAngleElement> {
                 angle: (pi / 180) * currentAngle - pi / 2,
                 child: Container(
                   height: size * 0.6,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage("assets/creator/rotate/servo_arm.png"),
+                      image: AssetImage(
+                          "packages/codeit_creator/assets/creator/rotate/servo_arm.png"),
                     ),
                   ),
                 ),

@@ -22,7 +22,8 @@ class InputCreatorCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     return CreatorCategory(
       controller: controller,
-      categoryName: CreatorConsts.getLocale(context)!.input,
+      categoryName:
+          CreatorControllerBase.getLabelName(label: 'input', context: context),
       color: CreatorConsts.creatorInputColor,
       elements: [
         SizedBox(height: 20),

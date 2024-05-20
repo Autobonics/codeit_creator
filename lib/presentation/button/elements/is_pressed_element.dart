@@ -93,7 +93,7 @@ class _IsPressedElementState extends State<IsPressedElement> {
                 children: [
                   if (widget.data?.button != null)
                     Text(
-                      '${CreatorConsts.getLocale(context)!.strIf} ${CreatorConsts.getLocale(context)!.button} ${widget.data?.button} ${CreatorConsts.getLocale(context)!.isPressed}, ${CreatorConsts.getLocale(context)!.say} :',
+                      '${CreatorControllerBase.getLabelName(label: 'strIf', context: context)} ${CreatorControllerBase.getLabelName(label: 'button', context: context)} ${widget.data?.button} ${CreatorControllerBase.getLabelName(label: 'isPressed', context: context)}, ${CreatorControllerBase.getLabelName(label: 'say', context: context)} :',
                       style: TextStyle(
                         color: Colors.white.withOpacity(0.8),
                       ),

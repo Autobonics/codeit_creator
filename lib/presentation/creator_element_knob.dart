@@ -50,8 +50,6 @@ class _CurveOutputKnobState extends State<CurveOutputKnob> {
 
   @override
   Widget build(BuildContext context) {
-    // print("The current global key is ${widget.key}");
-
     _getGesture(Widget child) {
       return GestureDetector(
         onPanStart: (details) {

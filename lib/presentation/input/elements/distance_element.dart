@@ -72,7 +72,8 @@ class _DistanceElementState extends State<DistanceElement> {
               children: [
                 if (widget.data != null)
                   Text(
-                    CreatorConsts.getLocale(context)!.currentDistance,
+                    CreatorControllerBase.getLabelName(
+                        label: 'currentDistance', context: context),
                     style: TextStyle(
                       color: Colors.white.withOpacity(0.8),
                     ),

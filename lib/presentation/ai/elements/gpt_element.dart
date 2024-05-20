@@ -17,12 +17,12 @@ class GptElement extends StatefulWidget {
   final CreatorControllerBase? controller;
 
   const GptElement({
-    Key? key,
+    super.key,
     this.data,
     this.isPressedDown = false,
     this.defaultSize = 100,
     this.controller,
-  }) : super(key: key);
+  });
 
   @override
   State<GptElement> createState() => _GptElementState();
@@ -186,7 +186,8 @@ class _GptElementState extends State<GptElement> {
                         width: size * 0.5,
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage('assets/bonic.png'),
+                            image: AssetImage(
+                                'packages/codeit_creator/assets/bonic.png'),
                           ),
                         ),
                       ),
@@ -198,7 +199,8 @@ class _GptElementState extends State<GptElement> {
                           width: size * 0.3,
                           decoration: const BoxDecoration(
                             image: DecorationImage(
-                              image: AssetImage('assets/bonic.png'),
+                              image: AssetImage(
+                                  'packages/codeit_creator/assets/bonic.png'),
                             ),
                           ),
                         ),

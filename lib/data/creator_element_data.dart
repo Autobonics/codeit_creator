@@ -1,6 +1,5 @@
 import 'package:codeit_creator/presentation/move/elements/move_canvas_element.dart';
 import 'package:codeit_creator/utilities/converters.dart';
-import 'package:codeit_creator/utilities/creator_constants.dart';
 import 'package:codeit_creator/data/creator_ai_data.dart';
 import 'package:codeit_creator/data/creator_data.dart';
 import 'package:equatable/equatable.dart';
@@ -189,43 +188,6 @@ class CreatorElementData extends Equatable {
 
   void removeListener(VoidCallback listener) {
     _listners.remove(listener);
-  }
-
-  static String getLabelName(
-      {required String label, required BuildContext context}) {
-    bool isArabic = Localizations.localeOf(context) == Locale('ar');
-    if (!isArabic) return label;
-    switch (label) {
-      case "Move":
-        return CreatorConsts.getLocale(context)!.move;
-      case "Stop":
-        return CreatorConsts.getLocale(context)!.stop;
-      case 'Heading':
-        return CreatorConsts.getLocale(context)!.heading;
-      case 'Sub Heading':
-        return CreatorConsts.getLocale(context)!.subHeading;
-      case 'Bonic':
-        return CreatorConsts.getLocale(context)!.bonic;
-      case 'Body':
-        return CreatorConsts.getLocale(context)!.body;
-      case 'Distance':
-        return CreatorConsts.getLocale(context)!.distance;
-      case 'Temperature':
-        return CreatorConsts.getLocale(context)!.temperature;
-      case 'Set Pixel':
-        return CreatorConsts.getLocale(context)!.setPixel;
-      case 'Piano':
-        return CreatorConsts.getLocale(context)!.piano;
-      case 'Set Angle':
-        return CreatorConsts.getLocale(context)!.setAngle;
-      case 'Orientation':
-        return CreatorConsts.getLocale(context)!.orientation;
-      case 'Is Pressed':
-        return CreatorConsts.getLocale(context)!.isPressed;
-      case 'Is Touched':
-        return CreatorConsts.getLocale(context)!.isTouched;
-    }
-    return '';
   }
 
   Map toMap() {

@@ -82,10 +82,8 @@ class _Bonic3DState extends State<Bonic3D> {
   }
 
   void loadImage() async {
-    this
-        .objs[0]
-        .images
-        .add(await _readFileBytes("assets/creator/orientation/face.png"));
+    this.objs[0].images.add(await _readFileBytes(
+        "packages/codeit_creator/assets/creator/orientation/face.png"));
     world = Sp3dWorld(objs);
     world.initImages().then((List<Sp3dObj> errorObjs) {
       setState(() {

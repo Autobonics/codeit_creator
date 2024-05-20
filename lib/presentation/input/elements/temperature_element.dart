@@ -72,7 +72,8 @@ class _TemperatureElementState extends State<TemperatureElement> {
               children: [
                 if (widget.data != null)
                   Text(
-                    CreatorConsts.getLocale(context)!.currentTemp,
+                    CreatorControllerBase.getLabelName(
+                        label: 'currentTemp', context: context),
                     style: TextStyle(
                       color: Colors.white.withOpacity(0.8),
                     ),

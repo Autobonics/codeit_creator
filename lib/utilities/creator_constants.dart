@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class CreatorConsts {
   static const inputModuleColor = Color(0xffD63B9B);
@@ -41,8 +40,4 @@ class CreatorConsts {
 
   static const int DriveLeftMotorPort = 1;
   static const int DriveRightMotorPort = 5;
-
-  static AppLocalizations? getLocale(BuildContext context) {
-    return AppLocalizations.of(context);
-  }
 }
