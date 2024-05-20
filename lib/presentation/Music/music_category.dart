@@ -20,8 +20,7 @@ class MusicCreatorCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     return CreatorCategory(
       controller: controller,
-      categoryName:
-          CreatorControllerBase.getLabelName(label: 'music', context: context),
+      categoryName: controller.getLabelName(label: 'music', context: context),
       color: CreatorConsts.creatorMusicColor,
       elements: [
         SizedBox(height: 20),

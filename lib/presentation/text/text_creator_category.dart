@@ -22,8 +22,7 @@ class TextCreatorCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     return CreatorCategory(
       controller: controller,
-      categoryName:
-          CreatorControllerBase.getLabelName(label: 'text', context: context),
+      categoryName: controller.getLabelName(label: 'text', context: context),
       elements: [
         const SizedBox(height: 20),
         CreatorCategoryElement(

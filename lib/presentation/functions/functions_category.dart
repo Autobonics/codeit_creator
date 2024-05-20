@@ -22,8 +22,8 @@ class FunctionsCreatorCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     return CreatorCategory(
       controller: controller,
-      categoryName: CreatorControllerBase.getLabelName(
-          label: 'functions', context: context),
+      categoryName:
+          controller.getLabelName(label: 'functions', context: context),
       color: CreatorConsts.creatorFunctionsColor,
       elements: [
         SizedBox(height: 20),

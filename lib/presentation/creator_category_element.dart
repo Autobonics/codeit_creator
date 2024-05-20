@@ -15,7 +15,7 @@ class CreatorCategoryElement extends StatefulWidget {
   final Color color;
   final CreatorControllerBase controller;
   const CreatorCategoryElement({
-    Key? key,
+    super.key,
     required this.category,
     required this.child,
     required this.label,
@@ -24,7 +24,7 @@ class CreatorCategoryElement extends StatefulWidget {
     this.totalInputs = 1,
     this.totalOutputs = 1,
     this.spaceBetween = const SizedBox(height: 4),
-  }) : super(key: key);
+  });
 
   @override
   State<CreatorCategoryElement> createState() => _CreatorCategoryElementState();
@@ -37,8 +37,8 @@ class _CreatorCategoryElementState extends State<CreatorCategoryElement> {
       child: Column(
         children: [
           Text(
-            CreatorControllerBase.getLabelName(
-                label: widget.label, context: context),
+            widget.controller
+                .getLabelName(label: widget.label, context: context),
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 18,

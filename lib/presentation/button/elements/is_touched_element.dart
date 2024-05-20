@@ -103,7 +103,7 @@ class _IsTouchedElementState extends State<IsTouchedElement> {
                 children: [
                   if (widget.data?.pin != null)
                     Text(
-                      '${CreatorControllerBase.getLabelName(label: 'strIf', context: context)} ${CreatorControllerBase.getLabelName(label: 'pin', context: context)} ${widget.data?.pin} ${CreatorControllerBase.getLabelName(label: 'isTouched', context: context)}, ${CreatorControllerBase.getLabelName(label: 'say', context: context)} :',
+                      '${widget.controller?.getLabelName(label: 'strIf', context: context) ?? 'If'} ${widget.controller?.getLabelName(label: 'pin', context: context) ?? 'Pin'} ${widget.data?.pin} ${widget.controller?.getLabelName(label: 'isTouched', context: context) ?? 'Is Touched'}, ${widget.controller?.getLabelName(label: 'say', context: context) ?? 'Say'} :',
                       style: TextStyle(
                         color: Colors.white.withOpacity(0.8),
                       ),

@@ -20,8 +20,7 @@ class RotateCreatorCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     return CreatorCategory(
       controller: controller,
-      categoryName:
-          CreatorControllerBase.getLabelName(label: 'rotate', context: context),
+      categoryName: controller.getLabelName(label: 'rotate', context: context),
       color: CreatorConsts.creatorRotateColor,
       elements: [
         SizedBox(height: 20),

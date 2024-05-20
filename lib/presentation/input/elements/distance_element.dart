@@ -72,8 +72,9 @@ class _DistanceElementState extends State<DistanceElement> {
               children: [
                 if (widget.data != null)
                   Text(
-                    CreatorControllerBase.getLabelName(
-                        label: 'currentDistance', context: context),
+                    widget.controller?.getLabelName(
+                            label: 'currentDistance', context: context) ??
+                        'Current Distance',
                     style: TextStyle(
                       color: Colors.white.withOpacity(0.8),
                     ),

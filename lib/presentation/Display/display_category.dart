@@ -22,8 +22,7 @@ class DisplayCreatorCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     return CreatorCategory(
       controller: controller,
-      categoryName: CreatorControllerBase.getLabelName(
-          label: 'display', context: context),
+      categoryName: controller.getLabelName(label: 'display', context: context),
       color: CreatorConsts.creatorDisplayColor,
       elements: [
         SizedBox(height: 20),

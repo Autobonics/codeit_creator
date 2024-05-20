@@ -22,8 +22,7 @@ class MoveCreatorCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     return CreatorCategory(
       controller: controller,
-      categoryName:
-          CreatorControllerBase.getLabelName(label: 'move', context: context),
+      categoryName: controller.getLabelName(label: 'move', context: context),
       color: CreatorConsts.creatorMoveColor,
       elements: [
         SizedBox(height: 20),
